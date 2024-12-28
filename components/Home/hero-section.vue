@@ -66,4 +66,31 @@ export default {
   text-transform: capitalize;
   color: #fff;
 }
+
+
+@media (max-width: 768px) {
+  .hero-content .hero-big-text{
+    font-size: 34px !important;
+    font-weight: 600;
+    line-height: 30.5px;
+  }
+
+  .hero-content .linear-text-big{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 30.5px;
+    background: linear-gradient(91.25deg, #026F7E -5.44%, #0DFD7E 164.59%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .hero-body{
+    width: 100%;
+    /* height: 50%; */
+  }
+
+  .hero-button{
+    margin-top: 1rem !important;
+  }
+}
 </style>

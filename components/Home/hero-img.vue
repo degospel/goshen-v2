@@ -41,5 +41,18 @@ export default {
   width: 100% !important;
   object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  .hero-img-section{
+    position: static !important;
+    height: 100% !important;
+  }
+
+  .hero-img{
+    position: static !important;
+    top: 0 !important;
+  }
+
+}
 </style>
 

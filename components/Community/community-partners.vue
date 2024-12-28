@@ -13,7 +13,7 @@
         </p>
       </div>
 
-      <div class="row justify-content-center align-items-center partner-img py-5">
+      <div class="row gy-4 justify-content-center align-items-center partner-img py-5">
         <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-3 col-xs-12">
           <img src="/img/partner-1.png" class="img-fluid" alt="">
         </div>

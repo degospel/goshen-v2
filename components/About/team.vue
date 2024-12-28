@@ -26,7 +26,7 @@
       </div>
 
       <div class="row justify-content-center py-3">
-        <div class="col-md-3 ">
+        <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
           <div>
             <div class="team-img">
               <img src="/img/banji.png" class="img-fluid" alt="...">
@@ -34,7 +34,7 @@
             <h5 class="card-title mt-3">Ajiboye Olabanji</h5>
           </div>
         </div>
-        <div class=" col-md-3">
+        <div class=" col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
           <div>
             <div class="team-img">
               <img src="/img/babatunde-1.png" class="img-fluid" alt="...">
@@ -42,7 +42,7 @@
             <h5 class="card-title mt-3">Babatunde Opemiposi</h5>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
           <div>
             <div class="team-img">
               <img src="/img/moses.png" class="img-fluid" alt="...">

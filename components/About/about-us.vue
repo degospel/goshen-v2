@@ -11,7 +11,7 @@
           <img src="/img/Ellipse 16.png" alt="">
         </div>
         <div class="container">
-          <div class="row justify-content-center py-5">
+          <div class="row justify-content-center row-p gy-3 py-5">
             <div class="col-md-6">
               <div class="card p-4">
                 <div class="card-body">
@@ -74,16 +74,19 @@ export default {
 
 .vision-mission-img{
   position: absolute;
+  top: 0;
   right: 0;
 }
 
 .card{
   background: #2c2c2c !important;
   color: #fff;
+  height: 100%;
 }
 .card-2 {
   background: #0DFD7E12 !important;
   color: #fff;
+  height: 100%;
 }
 
 .card-title{
@@ -102,5 +105,34 @@ export default {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+}
+
+
+@media (max-width: 768px) {
+  .row-p{
+    padding: .50rem .50rem !important;
+  }
+  .card{
+    padding: .50rem 1rem !important;
+  }
+
+
+  .card-title{
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.card-text{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
 }
 </style>

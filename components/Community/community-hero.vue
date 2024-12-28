@@ -46,4 +46,8 @@ export default {
   background-clip: text !important;
   -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 768px) {
+  
+}
 </style>

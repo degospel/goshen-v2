@@ -92,4 +92,47 @@ p{
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+
+
+/* @media (max-width: 468px) {
+
+} */
+
+@media (max-width: 768px) {
+  .section-header{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 42.64px;
+    letter-spacing: -0.01em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .section-header-big {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40.6px;
+    letter-spacing: -0.01em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .section-header-small {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40.64px;
+    letter-spacing: -0.01em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .section-header-smaller {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.64px;
+    letter-spacing: -0.01em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
 </style>

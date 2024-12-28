@@ -67,4 +67,18 @@ export default {
   color: #fff;
   text-align: center;
 }
+
+
+@media (max-width: 768px) {
+  .future-text{
+    font-family: Neulis Alt;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 46.6px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
 </style>
